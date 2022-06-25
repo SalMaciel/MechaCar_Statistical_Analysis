@@ -13,8 +13,8 @@ Using Rstudio, we will answer the following questions.
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
     - When we look at the total summary table, we can see that all coils meet the expectation of not exceeding the 100 PSI limit.  
-![total summary](images/del2_total.PNG)    
-    - However, when we inspect each lot indicidually we can see that Lots 1 and 2 meet the requirement but not Lot 3.
+![total summary](images/del2_total.PNG)  
+    - However, when we inspect each lot indicidually we can see that Lots 1 and 2 meet the requirement but not Lot 3.  
 ![lot summary](images/del2_lot.PNG)  
     - Lot 3 coils should not be used during the MecaCar production as they have a variance of 170 PSI.  
 ## T Tests on Suspension Coils
@@ -27,3 +27,14 @@ For lot 2 we found a p-value of 0.0005911, which suggest that coils from lot 2 a
 For lot 3 we found a p-value of 0.1589, this value is greater that our significance value of 0.05, which suggests that coils from lot 3 are far from the true mean of the entire population.  
 ![t test lot 3](images/del3_test_lot3.PNG)  
 From these results, we learned that coils from lot 3 alone, have a big influence on the overall p-value of the entire population.
+## Study Design MechaCar vs Competition
+When it comes to cars and car users there are a lot of questions that come to mind, and it should. Cars are not an easy purchase, from the purpose of the vehicle to the price tag, every aspect around that car should be consider so that buyers can make an informed decision.
+Nowadays the concerned for environmantally friendly products are more important to the public. For that reason, this study will focus on fuel efficiency.  
+- What metric or metrics are you going to test?
+    - Fuel efficiency.
+- What is the null hypothesis or alternative hypothesis?
+    - Are newer cars more fuel efficient?. Null hypothesis: Car age has no effect on fuel efficiency.  
+- What statistical test would you use to test the hypothesis? And why?  
+    - There is plenty of data regarding fuel efficiency from every car, for this reason a two-sample t test would be more appropriate.  
+- What data is needed to run the statistical test?  
+    - Numerical data. Eventhough I expect continuos data to be gathered, I don't want to rule out the posibility of interval data.
