@@ -18,15 +18,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![lot summary](images/del2_lot.PNG)  
     - Lot 3 coils should not be used during the MecaCar production as they have a variance of 170 PSI.  
 ## T Tests on Suspension Coils
-For the entire coil table we have a p-value of 1 which suggests that there is a significant difference from the true mean of the entire pupolation.  
+The entire population coil test shows a small variance from the target mean of 1500 PSI.  
 ![t test](images/del3_test1.PNG)  
-After looking at the p values for each individual lot we get a different story. For lot 1 we found a p-value of 1.5618e-11, which suggests that coils from lot 1 are at the true mean of the population.  
+Lot 1 has a mean exact to the target PSI of 1500.  
 ![t test lot 1](images/del3_test_lot1.PNG)  
-For lot 2 we found a p-value of 0.0005911, which suggest that coils from lot 2 are very close to the true mean of the population. 
+Lot 2 has a mean close to our target PSI of 1500. 
 ![t test lot 2](images/del3_test_lot2.PNG)  
-For lot 3 we found a p-value of 0.1589, this value is greater that our significance value of 0.05, which suggests that coils from lot 3 are far from the true mean of the entire population.  
+Lot 3 has the greatest variance in PSI.  
 ![t test lot 3](images/del3_test_lot3.PNG)  
-From these results, we learned that coils from lot 3 alone, have a big influence on the overall p-value of the entire population.
+From these results, we learned that coils from lot 3 alone, have a big influence on the overall mean value of the entire population. Coils from lot 3 failed the test and should not be used during production.  
 ## Study Design MechaCar vs Competition
 When it comes to cars and car users there are a lot of questions that come to mind, and it should. Cars are not an easy purchase, from the purpose of the vehicle to the price tag, every aspect around that car should be consider so that buyers can make an informed decision.
 Nowadays the concerned for environmantally friendly products are more important to the public. For that reason, this study will focus on fuel efficiency.  
